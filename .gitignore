@@ -1,0 +1,37 @@
+# Build / install artifacts
+*.egg-info/
+build/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+*.so
+
+# Logs and job output
+*.log
+*.out
+
+# Retrieval outputs
+retrievals/
+
+# Local example data (FITS spectra; see README for setup)
+examples/data/**/*.fits
+
+# Local editor / IDE
+.vscode/
+.idea/
+plan.md
+
+# SURFdrive WebDAV credentials and upload logs
+.surfdrive
+upload_to_surf.log
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+credentials.json
